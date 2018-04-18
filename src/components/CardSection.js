@@ -1,10 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 
-const CardSection = ({ children }) => {
-  console.log('here');
-  return <SectionContainer>{children}</SectionContainer>;
-};
+const CardSection = ({ children }) => <SectionContainer>{children}</SectionContainer>;
 
 const SectionContainer = styled.View`
   border-bottom-width: 1px;

@@ -1,10 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 
-const Card = props => {
-  console.log('here');
-  return <CardContainer>{props.children}</CardContainer>;
-};
+const Card = props => <CardContainer>{props.children}</CardContainer>;
 
 const CardContainer = styled.View`
   border-width: 1px;

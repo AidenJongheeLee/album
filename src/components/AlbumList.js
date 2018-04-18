@@ -27,6 +27,6 @@ class AlbumList extends Component {
   }
 }
 
-const AlbumListContainer = styled.View``;
+const AlbumListContainer = styled.ScrollView``;
 
 export default AlbumList;
